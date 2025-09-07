@@ -19,7 +19,7 @@ title: Home
 **Other:** API integration (OpenAI, Google Maps, Places Autocomplete), Kubernetes, CI/CD  
 
 ## 🚀 My projects
-![GitHub Projects](https://charalambosm.github.io/projects/)
+[GitHub Projects](https://charalambosm.github.io/projects/)
 ---
 
 ## 📈 GitHub Stats
