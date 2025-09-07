@@ -11,23 +11,6 @@ title: Home
 
 ---
 
-## 🚀 Projects
-
-
-
----
-
-## 🛠️ Skills & Tools
-
-**Languages:** TypeScript, JavaScript, Python, Java  
-**Frameworks:** React Native, Flask, Expo  
-**Cloud & Databases:** Firebase, Google Cloud Platform, Amazon Web Services
-**AI and Data Analysis**: Pytorch, Tensorflow, LangChain, Pandas
-**Test Automation**: Pytest, Pytest-BDD
-**Other:** API integration (OpenAI, Google Maps, Places Autocomplete), Kubernetes, CI/CD
-
----
-
 ## 📈 GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=charalambosm&show_icons=true)
@@ -36,7 +19,6 @@ title: Home
 ---
 
 Feel free to reach out if you’re interested in collaborating or just want to chat about test automation, data analytics, or AI‑driven apps!
-
 
 
 ## Recent Posts
