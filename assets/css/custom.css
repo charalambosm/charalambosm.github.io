@@ -1,0 +1,67 @@
+:root {
+  --bg: #ffffff;
+  --fg: #0f172a;
+  --muted: #475569;
+  --accent: #2563eb;
+  --card: #f8fafc;
+  --border: #e2e8f0;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0b1220;
+    --fg: #e5e7eb;
+    --muted: #94a3b8;
+    --accent: #60a5fa;
+    --card: #0f172a;
+    --border: #1f2937;
+  }
+}
+
+/* Container & typography */
+.wrapper { max-width: 900px; }
+.home { color: var(--fg); padding-bottom: 3rem; }
+.home h1 { font-size: 2.25rem; margin: 0.2rem 0 1rem; letter-spacing: .2px; }
+.home h2 { font-size: 1.5rem; margin-top: 2rem; }
+.home h3 { font-size: 1.125rem; margin-top: 1.25rem; }
+.home p, .home li { line-height: 1.7; }
+
+.eyebrow {
+  display: inline-block; font-size: .85rem; color: var(--muted);
+  text-transform: uppercase; letter-spacing: .12em; margin-bottom: .25rem;
+}
+
+/* Intro list */
+.intro ul { padding-left: 1.15rem; margin: .5rem 0 0; }
+
+/* Cards */
+.card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1rem 1.25rem;
+  margin: 1rem 0;
+}
+.card h3, .card h3 a { margin-top: .25rem; color: var(--fg); }
+.card a { text-decoration: none; border-bottom: 1px dashed var(--accent); }
+.card a:hover { border-bottom-style: solid; }
+
+/* Skills grid */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: .75rem 1.25rem;
+}
+@media (max-width: 640px) { .skills { grid-template-columns: 1fr; } }
+.skills .label { font-weight: 600; color: var(--muted); display: block; margin-bottom: .25rem; }
+.chipline { display: flex; flex-wrap: wrap; gap: .4rem .5rem; }
+.chip {
+  font-size: .9rem; padding: .25rem .55rem; border-radius: 999px;
+  border: 1px solid var(--border); background: transparent;
+}
+
+/* Stats row */
+.stats { display: flex; gap: .75rem; align-items: center; flex-wrap: wrap; }
+.stats img { max-width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--border); }
+
+/* Links */
+a { color: var(--accent); }
