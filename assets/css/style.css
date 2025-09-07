@@ -1,0 +1,4 @@
+/* Optional light tweaks on top of jekyll-theme-minimal */
+body { line-height: 1.6; }
+h1, h2, h3 { letter-spacing: 0.2px; }
+.site-title { font-weight: 700; }
