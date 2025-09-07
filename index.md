@@ -19,12 +19,3 @@ title: Home
 ---
 
 Feel free to reach out if you’re interested in collaborating or just want to chat about test automation, data analytics, or AI‑driven apps!
-
-
-## Recent Posts
-<!-- Jekyll will list posts under /_posts automatically; this is a simple loop -->
-<ul>
-{%- for post in site.posts limit:5 -%}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <small>({{ post.date | date: "%b %d, %Y" }})</small></li>
-{%- endfor -%}
-</ul>
